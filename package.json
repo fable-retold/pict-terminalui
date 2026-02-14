@@ -1,0 +1,48 @@
+{
+    "name": "pict-terminalui",
+    "version": "0.0.1",
+    "description": "Pict Terminal UI - Blessed-based terminal interface for Pict views",
+    "main": "source/Pict-TerminalUI.js",
+    "scripts": {
+        "start": "node example/Example-App.js",
+        "test": "npx mocha -u tdd -R spec",
+        "tests": "npx mocha -u tdd --exit -R spec --grep",
+        "coverage": "npx nyc --reporter=lcov --reporter=text-lcov npx mocha -- -u tdd -R spec",
+        "build": "npx quack build",
+        "docs": "npx quack prepare-docs ./docs -d ./modules",
+        "docs-serve": "npx quack docs-serve ./docs"
+    },
+    "author": "steven velozo <steven@velozo.com>",
+    "license": "MIT",
+    "dependencies": {
+        "blessed": "^0.1.81",
+        "fable": "^3.0.232",
+        "fable-serviceproviderbase": "^3.0.16",
+        "pict": "^1.0.343",
+        "pict-application": "^1.0.28",
+        "pict-view": "^1.0.64"
+    },
+    "devDependencies": {
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0",
+        "quackage": "^1.0.47"
+    },
+    "mocha": {
+        "diff": true,
+        "extension": [
+            "js"
+        ],
+        "package": "./package.json",
+        "reporter": "spec",
+        "slow": "75",
+        "timeout": "5000",
+        "ui": "tdd",
+        "watch-files": [
+            "source/**/*.js",
+            "test/**/*.js"
+        ],
+        "watch-ignore": [
+            "lib/vendor"
+        ]
+    }
+}
