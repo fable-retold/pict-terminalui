@@ -1,0 +1,79 @@
+{
+	"Generated": "2026-02-14T16:26:29.122Z",
+	"GitHubOrg": "stevenvelozo",
+	"DefaultBranch": "master",
+	"Groups": [
+		{
+			"Name": "Dist",
+			"Key": "dist",
+			"Description": "",
+			"Modules": [
+				{
+					"Name": "indoctrinate_content_staging",
+					"Repo": "indoctrinate_content_staging",
+					"Group": "dist",
+					"Branch": "master",
+					"HasDocs": false,
+					"HasCover": false,
+					"Sidebar": [],
+					"DocFiles": []
+				}
+			]
+		},
+		{
+			"Name": "Docs",
+			"Key": "docs",
+			"Description": "",
+			"Modules": [
+				{
+					"Name": "widgets",
+					"Repo": "widgets",
+					"Group": "docs",
+					"Branch": "master",
+					"HasDocs": true,
+					"HasCover": false,
+					"Sidebar": [],
+					"DocFiles": [
+						"widgets/box.md",
+						"widgets/button.md",
+						"widgets/checkbox.md",
+						"widgets/filemanager.md",
+						"widgets/form.md",
+						"widgets/list.md",
+						"widgets/listbar.md",
+						"widgets/listtable.md",
+						"widgets/loading.md",
+						"widgets/log.md",
+						"widgets/message.md",
+						"widgets/progressbar.md",
+						"widgets/prompt.md",
+						"widgets/question.md",
+						"widgets/radiobutton.md",
+						"widgets/scrollablebox.md",
+						"widgets/table.md",
+						"widgets/text.md",
+						"widgets/textarea.md",
+						"widgets/textbox.md"
+					]
+				}
+			]
+		},
+		{
+			"Name": "Example",
+			"Key": "example",
+			"Description": "",
+			"Modules": [
+				{
+					"Name": "views",
+					"Repo": "views",
+					"Group": "example",
+					"Branch": "master",
+					"HasDocs": false,
+					"HasCover": false,
+					"Sidebar": [],
+					"DocFiles": []
+				}
+			]
+		}
+	]
+}
