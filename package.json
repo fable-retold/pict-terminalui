@@ -1,6 +1,6 @@
 {
     "name": "pict-terminalui",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Pict Terminal UI - Blessed-based terminal interface for Pict views",
     "main": "source/Pict-TerminalUI.js",
     "scripts": {
