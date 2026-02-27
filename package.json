@@ -1,6 +1,6 @@
 {
     "name": "pict-terminalui",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Pict Terminal UI - Blessed-based terminal interface for Pict views",
     "main": "source/Pict-TerminalUI.js",
     "scripts": {
@@ -16,11 +16,11 @@
     "license": "MIT",
     "dependencies": {
         "blessed": "^0.1.81",
-        "fable": "^3.0.232",
-        "fable-serviceproviderbase": "^3.0.16",
-        "pict": "^1.0.343",
-        "pict-application": "^1.0.28",
-        "pict-view": "^1.0.64"
+        "fable": "^3.1.63",
+        "fable-serviceproviderbase": "^3.0.19",
+        "pict": "^1.0.355",
+        "pict-application": "^1.0.33",
+        "pict-view": "^1.0.67"
     },
     "devDependencies": {
         "quackage": "^1.0.58"
