@@ -23,8 +23,6 @@
         "pict-view": "^1.0.64"
     },
     "devDependencies": {
-        "chai": "^4.3.7",
-        "mocha": "^10.2.0",
         "quackage": "^1.0.47"
     },
     "mocha": {
