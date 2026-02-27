@@ -23,7 +23,7 @@
         "pict-view": "^1.0.64"
     },
     "devDependencies": {
-        "quackage": "^1.0.47"
+        "quackage": "^1.0.58"
     },
     "mocha": {
         "diff": true,
