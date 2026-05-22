@@ -1,91 +1,178 @@
 {
-	"Generated": "2026-04-10T17:26:47.373Z",
+	"Generated": "2026-05-22T05:46:54.389Z",
+	"Mode": "module",
 	"GitHubOrg": "stevenvelozo",
 	"DefaultBranch": "master",
-	"Groups": [
-		{
-			"Name": "Dist",
-			"Key": "dist",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "indoctrinate_content_staging",
-					"Repo": "indoctrinate_content_staging",
-					"Group": "dist",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				}
-			]
-		},
-		{
-			"Name": "Docs",
-			"Key": "docs",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "css",
-					"Repo": "css",
-					"Group": "docs",
-					"Branch": "master",
-					"HasDocs": true,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": [
-						"css/docuserve.css"
-					]
-				},
-				{
-					"Name": "widgets",
-					"Repo": "widgets",
-					"Group": "docs",
-					"Branch": "master",
-					"HasDocs": true,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": [
-						"widgets/box.md",
-						"widgets/button.md",
-						"widgets/checkbox.md",
-						"widgets/filemanager.md",
-						"widgets/form.md",
-						"widgets/list.md",
-						"widgets/listbar.md",
-						"widgets/listtable.md",
-						"widgets/loading.md",
-						"widgets/log.md",
-						"widgets/message.md",
-						"widgets/progressbar.md",
-						"widgets/prompt.md",
-						"widgets/question.md",
-						"widgets/radiobutton.md",
-						"widgets/scrollablebox.md",
-						"widgets/table.md",
-						"widgets/text.md",
-						"widgets/textarea.md",
-						"widgets/textbox.md"
-					]
-				}
-			]
-		},
-		{
-			"Name": "Example",
-			"Key": "example",
-			"Description": "",
-			"Modules": [
-				{
-					"Name": "views",
-					"Repo": "views",
-					"Group": "example",
-					"Branch": "master",
-					"HasDocs": false,
-					"HasCover": false,
-					"Sidebar": [],
-					"DocFiles": []
-				}
-			]
-		}
-	]
+	"Module": {
+		"Name": "pict-terminalui",
+		"Repo": "pict-terminalui",
+		"Group": "",
+		"Branch": "master",
+		"HasDocs": true,
+		"HasCover": true,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Quick Start",
+						"Path": "README.md"
+					},
+					{
+						"Title": "Building an App",
+						"Path": "building-an-app.md"
+					}
+				]
+			},
+			{
+				"Title": "Containers",
+				"Children": [
+					{
+						"Title": "Box",
+						"Path": "widgets/box.md"
+					},
+					{
+						"Title": "Form",
+						"Path": "widgets/form.md"
+					},
+					{
+						"Title": "Scrollable Box",
+						"Path": "widgets/scrollablebox.md"
+					}
+				]
+			},
+			{
+				"Title": "Text Display",
+				"Children": [
+					{
+						"Title": "Text",
+						"Path": "widgets/text.md"
+					},
+					{
+						"Title": "Log",
+						"Path": "widgets/log.md"
+					},
+					{
+						"Title": "Table",
+						"Path": "widgets/table.md"
+					},
+					{
+						"Title": "List Table",
+						"Path": "widgets/listtable.md"
+					}
+				]
+			},
+			{
+				"Title": "Text Input",
+				"Children": [
+					{
+						"Title": "Textbox",
+						"Path": "widgets/textbox.md"
+					},
+					{
+						"Title": "Textarea",
+						"Path": "widgets/textarea.md"
+					}
+				]
+			},
+			{
+				"Title": "Selection",
+				"Children": [
+					{
+						"Title": "List",
+						"Path": "widgets/list.md"
+					},
+					{
+						"Title": "List Bar",
+						"Path": "widgets/listbar.md"
+					},
+					{
+						"Title": "Checkbox",
+						"Path": "widgets/checkbox.md"
+					},
+					{
+						"Title": "Radio Button",
+						"Path": "widgets/radiobutton.md"
+					}
+				]
+			},
+			{
+				"Title": "Actions",
+				"Children": [
+					{
+						"Title": "Button",
+						"Path": "widgets/button.md"
+					},
+					{
+						"Title": "Progress Bar",
+						"Path": "widgets/progressbar.md"
+					}
+				]
+			},
+			{
+				"Title": "Dialogs",
+				"Children": [
+					{
+						"Title": "Prompt",
+						"Path": "widgets/prompt.md"
+					},
+					{
+						"Title": "Question",
+						"Path": "widgets/question.md"
+					},
+					{
+						"Title": "Message",
+						"Path": "widgets/message.md"
+					},
+					{
+						"Title": "Loading",
+						"Path": "widgets/loading.md"
+					}
+				]
+			},
+			{
+				"Title": "File System",
+				"Children": [
+					{
+						"Title": "File Manager",
+						"Path": "widgets/filemanager.md"
+					}
+				]
+			}
+		],
+		"DocFiles": [
+			".nojekyll",
+			"README.md",
+			"_brand.json",
+			"_cover.md",
+			"_sidebar.md",
+			"_topbar.md",
+			"_version.json",
+			"building-an-app.md",
+			"index.html",
+			"retold-catalog.json",
+			"retold-keyword-index.json",
+			"widgets/box.md",
+			"widgets/button.md",
+			"widgets/checkbox.md",
+			"widgets/filemanager.md",
+			"widgets/form.md",
+			"widgets/list.md",
+			"widgets/listbar.md",
+			"widgets/listtable.md",
+			"widgets/loading.md",
+			"widgets/log.md",
+			"widgets/message.md",
+			"widgets/progressbar.md",
+			"widgets/prompt.md",
+			"widgets/question.md",
+			"widgets/radiobutton.md",
+			"widgets/scrollablebox.md",
+			"widgets/table.md",
+			"widgets/text.md",
+			"widgets/textarea.md",
+			"widgets/textbox.md"
+		]
+	},
+	"Groups": []
 }
